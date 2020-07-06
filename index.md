@@ -1,6 +1,6 @@
 ## 才子轩
 
-You can use the [editor on GitHub](https://github.com/sfcaiz-czx/sfcaiz.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+你可以在github网站上修改关于你网站的内容，github将会稍后把修改上传到你的网站上。
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
