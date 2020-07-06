@@ -4,11 +4,16 @@ title: 尝试
 date: 2020-07-06 22:19
 categories: 检测
 ---
-随便写点什么
-附上一个链接[百度][baidu]
-sfcaiz
-#ddd
+随便写点什么.
+附上一个链接[Baidu][baidu].
+
+
+sfcaiz.
+#ddd.
+
 ##ssss
+
+`sfc`
 
 ```
 int a = 1;
@@ -22,5 +27,10 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+[Example][example]
+[网站][example]
 
-[baidu]: www.baidu.com
+
+
+[example]: https://www.jianshu.com/p/f82c76b90336
+[baidu]:  https://www.baidu.com/
