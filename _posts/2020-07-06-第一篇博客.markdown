@@ -1,0 +1,26 @@
+---
+layer: post
+title: 尝试
+date: 2020-07-06 22:19
+categories: 检测
+---
+随便写点什么
+附上一个链接[百度][baidu]
+sfcaiz
+#ddd
+##ssss
+
+```
+int a = 1;
+printf("%d", a);
+```
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+[baidu]: www.baidu.com

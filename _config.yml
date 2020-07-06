@@ -14,16 +14,16 @@ sass:
 permalink: /posts/:title/
 texture:
   title: sfcaiz's blog
-  tagline: Developer. Designer
+  tagline: Student. Green-hand
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
-  showPicker: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
     github:  sfcaiz-czx
-    linkedIn: in/thelehhman
+    wechat: sfcaiz
     rss: rss
 
 
