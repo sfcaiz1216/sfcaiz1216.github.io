@@ -1,4 +1,13 @@
-theme: jekyll-theme-slate
-title: 才子轩
-SEOTitle: sfcaiz的博客 | 才子轩
-email: sfcaiz@126.com
+remote_theme: thelehhman/texture
+theme: texture
+$ gem install texture
+
+texture:
+  title: 才子轩
+  tagline: student. green hand
+  data_format: "%b %-d, %Y"
+
+  social_limks:
+    github: sfcaiz-czx
+  
+  style: [black]
