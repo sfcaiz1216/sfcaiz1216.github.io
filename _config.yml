@@ -1,10 +1,10 @@
 # Setup
 title:               才子轩
-tagline:             'sfcaiz's blog'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+tagline:             sfcaiz's blog
+# description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 https://www.sfcaiz.com
-baseurl:             ''
-paginate:            5
+baseurl:             ""
+paginate:            10
 permalink:           pretty
 
 # About/contact
@@ -13,9 +13,25 @@ author:
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 # Gems
 plugins:
+  - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Custom vars
 version:             1.1.0
