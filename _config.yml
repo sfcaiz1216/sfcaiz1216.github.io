@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: ""
 keyword: ""
-url: "http://sfcaiz-czx.github.io"              # your host, for absolute URL
-baseurl: "/sfcaiz.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://sfcaiz-czx.github.io/sfcaiz.github.io"              # your host, for absolute URL
+# baseurl: "/sfcaiz.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
