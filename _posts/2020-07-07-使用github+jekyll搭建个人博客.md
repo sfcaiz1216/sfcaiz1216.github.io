@@ -51,7 +51,7 @@ jekyll new . --force
 选择一个Markdown文本编辑器，如Atom，VSCode，typora等.在编辑器中编辑本地gjames项目中_posts文件夹当中的文件，再通过github desktop上传到github上即可.
 文章的文件名格式需严格遵循以下格式：
 {% highlight js %}
-2020-0707-title.md
+2020-07-07-title.md
 {% endhighlight %}
 同时文章内容格式要求如下:
 {% highlight js %}
