@@ -1,2 +1,1 @@
-# sfcaiz.github.io
-This is a blog written by sfcaiz
+# A simple blog site
