@@ -20,9 +20,7 @@
 
 title: sfcaiz blog
 email: sfcaiz@126.com
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown: kramdown
 description: >- # this means to ignore newlines until "baseurl:"
   This is a blog just for learning and fun.
 #baseurl: "" # the subpath of your site, e.g. /blog
