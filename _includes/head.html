@@ -1,0 +1,33 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+
+  <style>
+    table {
+      border:#ccc 1px solid;
+      border-radius:3px;
+    }
+    table th {
+      padding:21px 25px 22px 25px;
+      border-top:1px solid #fafafa;
+      border-bottom:1px solid #e0e0e0;
+    }
+    table tr {
+      padding-left:20px;
+    }
+    table td {
+      padding:18px;
+      border-top: 1px solid #ffffff;
+      border-bottom:1px solid #e0e0e0;
+      border-left: 1px solid #e0e0e0;
+    }
+  </style>
+  
+</head>
