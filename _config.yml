@@ -31,7 +31,7 @@ github_username: sfcaiz1216
 collections:
   recipe:
     # output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:title:output_ext/
 
 # Build settings
 theme: minima
