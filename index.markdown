@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+this content will be edited in index.markdown
