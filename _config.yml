@@ -28,10 +28,10 @@ url: "https://sfcaiz1216.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username: sfcaiz1216
 
-# collections:
-#   Recipe:
-#     # output: true
-#     permalink: /:categories/:title:output_ext
+collections:
+  Recipe:
+    # output: true
+    permalink: /:collection/:title/
 
 # Build settings
 theme: minima
