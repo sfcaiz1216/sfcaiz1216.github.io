@@ -31,7 +31,7 @@ github_username: sfcaiz-czx
 collections:
   Recipe:
     output: true
-    permalink: none
+    permalink: /:categories/:title:output_ext
 
 # Build settings
 theme: minima
