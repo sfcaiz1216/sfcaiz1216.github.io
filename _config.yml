@@ -30,7 +30,7 @@ github_username: sfcaiz-czx
 
 collections:
   Recipe:
-    # output: true
+    output: true
     permalink: none
 
 # Build settings
