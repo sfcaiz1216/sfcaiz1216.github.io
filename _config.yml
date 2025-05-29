@@ -28,11 +28,6 @@ url: "http://sfcaiz-czx.github.io/sfcaiz.github.io" # the base hostname & protoc
 #twitter_username: jekyllrb
 github_username: sfcaiz-czx
 
-collections:
-  Recipe:
-    output: true
-    permalink: /:categories/:title:output_ext
-
 # Build settings
 theme: minima
 plugins:
