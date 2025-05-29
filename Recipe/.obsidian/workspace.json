@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "醪糟鸡蛋水.md",
+                "file": "炒合菜.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "醪糟鸡蛋水"
+              "title": "炒合菜"
             }
           }
         ]
@@ -183,8 +183,8 @@
   },
   "active": "72c91549888bb20f",
   "lastOpenFiles": [
-    "炒合菜.md",
     "醪糟鸡蛋水.md",
+    "炒合菜.md",
     "2020-07-07-新使用github+jekyll搭建个人博客.md",
     "模板/菜品模板.md",
     "家庭菜谱/2025-05-29-醪糟鸡蛋水.md",
