@@ -9,12 +9,11 @@ title: Recipes
     <h2>Main Dishes</h2>
     <div class="recipe-grid">
       <div class="recipe-item">
-        <img src="{{ "/assets/images/醪糟鸡蛋水.webp" | relative_url }}"
-        alt="Recipe 1">
+        <img src="{{ "/assets/images/醪糟鸡蛋水.webp" | https://www.google.com/}}" alt="Recipe 1">
         <p>Grilled Chicken</p>
       </div>
       <div class="recipe-item">
-        <img src="{{ "/assets/images/recipe2.jpg" | relative_url }}" alt="Recipe
+        <img src="{{ "/assets/images/地球之盐.webp" | https://www.bilibili.com/ }}" alt="Recipe
         2">
         <p>Beef Steak</p>
       </div>
@@ -25,58 +24,59 @@ title: Recipes
     <h2>Desserts</h2>
     <div class="recipe-grid">
       <div class="recipe-item">
-        <img src="{{ "/assets/images/recipe3.jpg" | relative_url }}" alt="Recipe
+        <img src="{{ "/assets/images/需要的软件.webp" | https://www.bing.com/ }}" alt="Recipe
         3">
         <p>Chocolate Cake</p>
       </div>
       <div class="recipe-item">
-        <img src="{{ "/assets/images/recipe4.jpg" | relative_url }}" alt="Recipe
+        <img src="{{ "/assets/images/国王的演讲.webp" | https://www.zhihu.com/ }}" alt="Recipe
         4">
         <p>Fruit Tart</p>
       </div>
+      </div>
     </div>
   </div>
+
+  <!-- 样式 -->
+  <style>
+    .recipes {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .recipes-heading {
+      font-size: 2.5em;
+      margin: 20px 0;
+    }
+
+    .recipe-category h2 {
+      font-size: 1.8em;
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .recipe-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .recipe-item {
+      text-align: center;
+    }
+
+    .recipe-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .recipe-item p {
+      font-size: 1em;
+      margin: 10px 0 0 0;
+    }
+  </style>
 </div>
-
-<!-- 样式 -->
-<style>
-  .recipes {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .recipes-heading {
-    font-size: 2.5em;
-    margin: 20px 0;
-  }
-
-  .recipe-category h2 {
-    font-size: 1.8em;
-    margin-top: 30px;
-    text-align: left;
-  }
-
-  .recipe-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
-    margin: 20px 0;
-  }
-
-  .recipe-item {
-    text-align: center;
-  }
-
-  .recipe-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  }
-
-  .recipe-item p {
-    font-size: 1em;
-    margin: 10px 0 0 0;
-  }
-</style>
